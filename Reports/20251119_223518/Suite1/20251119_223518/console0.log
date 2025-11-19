@@ -1,0 +1,36 @@
+2025-11-19 22:35:31.976 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Padala.P.Goud\.katalon\packages\KSE-10.4.1\configuration\org.eclipse.osgi\131\0\.cp\resources\logback\logback-execution.xml
+2025-11-19 22:35:31.989 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Padala.P.Goud\git\KatalonProject\Include\config\log.properties
+2025-11-19 22:35:32.483 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Suite1
+2025-11-19 22:35:32.877 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Padala Prashanth Goud
+2025-11-19 22:35:32.880 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = KatalonProject
+2025-11-19 22:35:32.882 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Padala.P.Goud - LP-HYD-0X105111.IN.COFORGETECH.COM
+2025-11-19 22:35:32.886 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-11-19 22:35:32.888 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.180.3
+2025-11-19 22:35:32.890 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.1.0
+2025-11-19 22:35:34.669 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-19 22:35:34.669 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/Login1
+2025-11-19 22:35:36.090 DEBUG testcase.Login1                          - 1: openBrowser("")
+2025-11-19 22:35:37.176 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-11-19 22:35:37.943 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 19, 2025 10:35:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-19 22:35:51.563 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2a542876d6751da6da9cb4348042a070
+2025-11-19 22:35:51.568 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 142.0.3595.80
+2025-11-19 22:35:51.570 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-19 22:35:51.572 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-19 22:35:51.611 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-19 22:35:51.915 DEBUG testcase.Login1                          - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-11-19 22:35:55.834 DEBUG testcase.Login1                          - 3: click(findTestObject("Object Repository/CURA Objects/Page_CURA Healthcare Service/a_We Care About Your Health_btn-make-appointment"))
+2025-11-19 22:35:58.437 DEBUG testcase.Login1                          - 4: setText(findTestObject("Object Repository/CURA Objects/Page_CURA Healthcare Service/input_Username_txt-username"), "John Doe")
+2025-11-19 22:36:00.340 DEBUG testcase.Login1                          - 5: setEncryptedText(findTestObject("Object Repository/CURA Objects/Page_CURA Healthcare Service/input_Password_txt-password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+2025-11-19 22:36:01.623 DEBUG testcase.Login1                          - 6: click(findTestObject("Object Repository/CURA Objects/Page_CURA Healthcare Service/button_Password_btn-login"))
+2025-11-19 22:36:03.622 DEBUG testcase.Login1                          - 7: click(findTestObject("Object Repository/CURA Objects/Page_CURA Healthcare Service/input_Apply for hospital readmission_chk_ho_9218d5"))
+2025-11-19 22:36:04.386 DEBUG testcase.Login1                          - 8: click(findTestObject("Object Repository/CURA Objects/Page_CURA Healthcare Service/input_Medicare_radio_program_medicare"))
+2025-11-19 22:36:04.928 DEBUG testcase.Login1                          - 9: click(findTestObject("Object Repository/CURA Objects/Page_CURA Healthcare Service/div_Visit Date (Required)_input-group-addon"))
+2025-11-19 22:36:05.446 DEBUG testcase.Login1                          - 10: click(findTestObject("Object Repository/CURA Objects/Page_CURA Healthcare Service/td_Sa_day"))
+2025-11-19 22:36:06.172 DEBUG testcase.Login1                          - 11: setText(findTestObject("Object Repository/CURA Objects/Page_CURA Healthcare Service/textarea_Comment_txt_comment"), "12345")
+2025-11-19 22:36:07.267 DEBUG testcase.Login1                          - 12: click(findTestObject("Object Repository/CURA Objects/Page_CURA Healthcare Service/button_Comment_btn-book-appointment"))
+2025-11-19 22:36:08.140 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/Login1
+2025-11-19 22:36:09.444 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-11-19 22:36:09.445 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Suite1
+2025-11-19 22:36:09.445 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
