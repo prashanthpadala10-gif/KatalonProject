@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestOps Suite,Edge Chromium 142.0.3595.90,,,20-11-2025 14:25:22,20-11-2025 14:26:20,57.704s,PASSED
+,,,,,,,
+Test Cases/TestOps integration/TestOps Testing,Edge Chromium 142.0.3595.90,,,20-11-2025 14:25:25,20-11-2025 14:25:55,30.493s,PASSED
+"openBrowser("""")",Edge Chromium 142.0.3595.90,,,20-11-2025 14:25:27,20-11-2025 14:25:45,17.813s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 142.0.3595.90,,,20-11-2025 14:25:45,20-11-2025 14:25:46,1.407s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_We Care About Your Health_btn-make-appointment""))",Edge Chromium 142.0.3595.90,,,20-11-2025 14:25:46,20-11-2025 14:25:50,3.970s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_txt-username""), ""John Doe"")",Edge Chromium 142.0.3595.90,,,20-11-2025 14:25:50,20-11-2025 14:25:52,1.809s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_txt-password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Edge Chromium 142.0.3595.90,,,20-11-2025 14:25:52,20-11-2025 14:25:53,1.511s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Password_btn-login""))",Edge Chromium 142.0.3595.90,,,20-11-2025 14:25:53,20-11-2025 14:25:55,1.877s,PASSED
+,,,,,,,
+Test Cases/TestOps integration/TestOps testing2,Edge Chromium 142.0.3595.90,,,20-11-2025 14:25:55,20-11-2025 14:26:18,22.568s,PASSED
+"openBrowser("""")",Edge Chromium 142.0.3595.90,,,20-11-2025 14:25:56,20-11-2025 14:26:09,13.092s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Edge Chromium 142.0.3595.90,,,20-11-2025 14:26:09,20-11-2025 14:26:13,3.796s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_We Care About Your Health_btn-make-appointment""))",Edge Chromium 142.0.3595.90,,,20-11-2025 14:26:13,20-11-2025 14:26:15,2.607s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_infokatalon.com_to-top""))",Edge Chromium 142.0.3595.90,,,20-11-2025 14:26:15,20-11-2025 14:26:17,1.370s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/h1""))",Edge Chromium 142.0.3595.90,,,20-11-2025 14:26:17,20-11-2025 14:26:18,1.391s,PASSED
