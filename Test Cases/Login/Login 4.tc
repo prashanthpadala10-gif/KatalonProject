@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login1</name>
-   <tag>login,GenAI</tag>
+   <name>Login 4</name>
+   <tag>GenAI</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>2f519600-6b4c-4903-a129-9aa442f51a26</testCaseGuid>
+   <testCaseGuid>8913eaa6-08e9-426e-befd-7471f950a674</testCaseGuid>
 </TestCaseEntity>

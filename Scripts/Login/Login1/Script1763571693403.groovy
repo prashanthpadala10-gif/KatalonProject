@@ -39,8 +39,11 @@ WebUI.click(findTestObject('Object Repository/CURA Objects/Page_CURA Healthcare 
 
 WebUI.click(findTestObject('Object Repository/CURA Objects/Page_CURA Healthcare Service/td_Sa_day'))
 
-WebUI.setText(findTestObject('Object Repository/CURA Objects/Page_CURA Healthcare Service/textarea_Comment_txt_comment'), 
-    '12345')
+
+// Set the text '12345' into the comment textarea on the CURA Healthcare Service page
+WebUI.setText(findTestObject('Object Repository/CURA Objects/Page_CURA Healthcare Service/textarea_Comment_txt_comment'), '12345')
+
+
 
 WebUI.click(findTestObject('Object Repository/CURA Objects/Page_CURA Healthcare Service/button_Comment_btn-book-appointment'))
 

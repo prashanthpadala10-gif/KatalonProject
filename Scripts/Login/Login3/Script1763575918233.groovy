@@ -20,37 +20,15 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
-/*
-*  Navigate the browser to the specified URL.
-*
-*  1. Use the WebUI keyword to open the given URL in the current browser session.
-*  2. Load the webpage located at 'https://katalon-demo-cura.herokuapp.com/'.
-*
-*/
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_We Care About Your Health_btn-make-appointment'))
-/*
-*  Click the "Make Appointment" button on the CURA Healthcare Service page.
-*
-*  1. Locate the "Make Appointment" button using its test object path in the Object Repository.
-*  2. Perform a click action on the identified button to initiate the appointment process.
-*
-*/
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_txt-username'), 'John Doe')
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_txt-password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Password_btn-login'))
-/*
-*  Automate the login process on the CURA Healthcare Service demo website.
-*
-*  1. Open a new browser window.
-*  2. Navigate to the CURA Healthcare Service demo website URL.
-*  3. Click the "Make Appointment" button on the homepage.
-*  4. Enter the username "John Doe" into the username input field.
-*  5. Enter the encrypted password into the password input field.
-*  6. Click the login button to submit the login form.
-*
-*/
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/h2'))
 
+//Print script is successfull
+// Print script is successfull
+println('script is successfull')

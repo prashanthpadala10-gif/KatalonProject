@@ -1,0 +1,30 @@
+2025-11-19 22:52:27.633 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Padala.P.Goud\.katalon\packages\KSE-10.4.1\configuration\org.eclipse.osgi\131\0\.cp\resources\logback\logback-execution.xml
+2025-11-19 22:52:27.645 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Padala.P.Goud\git\KatalonProject\Include\config\log.properties
+2025-11-19 22:52:28.058 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TestOps Suite
+2025-11-19 22:52:28.567 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Padala Prashanth Goud
+2025-11-19 22:52:28.569 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = KatalonProject
+2025-11-19 22:52:28.572 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Padala.P.Goud - LP-HYD-0X105111.IN.COFORGETECH.COM
+2025-11-19 22:52:28.576 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-11-19 22:52:28.579 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.180.3
+2025-11-19 22:52:28.583 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.1.0
+2025-11-19 22:52:30.458 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-11-19 22:52:30.460 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/TestOps integration/TestOps Testing
+2025-11-19 22:52:32.083 DEBUG testcase.TestOps Testing                 - 1: openBrowser("")
+2025-11-19 22:52:33.272 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Edge Chromium' driver
+2025-11-19 22:52:33.713 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Nov 19, 2025 10:52:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 142, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 142
+2025-11-19 22:52:46.583 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7ca9db8f11492c581849a29ac54a1518
+2025-11-19 22:52:46.590 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Edge Chromium 142.0.3595.80
+2025-11-19 22:52:46.594 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-11-19 22:52:46.597 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-11-19 22:52:46.650 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-11-19 22:52:46.929 DEBUG testcase.TestOps Testing                 - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-11-19 22:52:50.528 DEBUG testcase.TestOps Testing                 - 3: click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_We Care About Your Health_btn-make-appointment"))
+2025-11-19 22:52:53.340 DEBUG testcase.TestOps Testing                 - 4: setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_txt-username"), "John Doe")
+2025-11-19 22:52:54.795 DEBUG testcase.TestOps Testing                 - 5: setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_txt-password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM")
+2025-11-19 22:52:55.504 DEBUG testcase.TestOps Testing                 - 6: click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Password_btn-login"))
+2025-11-19 22:52:56.975 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/TestOps integration/TestOps Testing
+2025-11-19 22:52:58.202 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-11-19 22:52:58.203 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TestOps Suite
+2025-11-19 22:52:58.203 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

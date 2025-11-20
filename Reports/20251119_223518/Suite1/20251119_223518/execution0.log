@@ -970,10 +970,7 @@ Login1.run(Login1:45)
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
-</log>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2025-11-19T17:19:27.914288700Z</date>
   <millis>1763572767914</millis>
@@ -1026,3 +1023,4 @@ Login1.run(Login1:45)
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
+</log>

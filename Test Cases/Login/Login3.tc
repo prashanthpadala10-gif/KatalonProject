@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>Login3</name>
-   <tag></tag>
+   <tag>GenAI</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>70d2d867-22aa-460a-8f8c-4aadfcce8f27</testCaseGuid>
